@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading-CSharp", "Multithreading-CSharp\Multithreading-CSharp.csproj", "{03FE0B2E-E7C0-4145-A5A9-CFE7BABCA058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multithreading-CSharp", "Multithreading-CSharp\Multithreading-CSharp.csproj", "{03FE0B2E-E7C0-4145-A5A9-CFE7BABCA058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizationUsingLock", "SynchronizationUsingLock\SynchronizationUsingLock.csproj", "{EE9E71C1-CAF5-47B2-8AE2-9D87F2360B76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynchronizationUsingLock", "SynchronizationUsingLock\SynchronizationUsingLock.csproj", "{EE9E71C1-CAF5-47B2-8AE2-9D87F2360B76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncUsingMonitor", "SyncUsingMonitor\SyncUsingMonitor.csproj", "{C61F3203-ED2D-45CD-AF28-F6E0D57F3504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncUsingMonitor", "SyncUsingMonitor\SyncUsingMonitor.csproj", "{C61F3203-ED2D-45CD-AF28-F6E0D57F3504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncUsingInterlockedExchange", "InterlockedExchange\SyncUsingInterlockedExchange.csproj", "{AAC6F449-57C8-4D83-902D-E2E8EE7DCB16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C61F3203-ED2D-45CD-AF28-F6E0D57F3504}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C61F3203-ED2D-45CD-AF28-F6E0D57F3504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C61F3203-ED2D-45CD-AF28-F6E0D57F3504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC6F449-57C8-4D83-902D-E2E8EE7DCB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC6F449-57C8-4D83-902D-E2E8EE7DCB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC6F449-57C8-4D83-902D-E2E8EE7DCB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC6F449-57C8-4D83-902D-E2E8EE7DCB16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
